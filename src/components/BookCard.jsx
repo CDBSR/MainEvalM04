@@ -1,8 +1,10 @@
 import { Box, Button, Image, Text, VStack } from "@chakra-ui/react"
 import { useDispatch, useSelector } from "react-redux"
 import { addBookToMyBooks } from "../redux/actions/booksActions";
+import { useNavigate } from "react-router-dom";
 
 export const BookCard = ({book}) => {
+    const navigate = useNavigate();
     const dispatch = useDispatch();
     const user = useSelector((state) => state.auth.user);
 
@@ -12,6 +14,7 @@ export const BookCard = ({book}) => {
         }
         else {
             alert("please log in to add books");
+            navigate('/login');
         }
     };
 

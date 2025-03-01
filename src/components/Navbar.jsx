@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <Text fontSize={'xl'} fontWeight={'bold'}>My Library</Text>
                 <Flex gap={4}>
                     <Link to={'/'}>Home</Link>
-                    {user && <Link to={'/mybooks'}>My Books</Link>}
+                    {user && <Link to={'/booklist'}>My Books</Link>}
                     {!user ? (
                         <>
                         <Link to={'/login'}>Login</Link>

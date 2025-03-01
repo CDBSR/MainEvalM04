@@ -19,7 +19,7 @@ export const Login = () => {
         try {
             dispatch(loginUser(email, password));
             alert("Logged in Successfully");
-            navigate('/home');
+            navigate('/');
         } catch(error) {
             console.log('Error in Logging', error);
         }

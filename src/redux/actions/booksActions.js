@@ -1,3 +1,4 @@
+
 import { baseurl } from "../../components/BaseUrl";
 
 export const FETCH_BOOKS_REQUEST = 'FETCH_BOOKS_REQUEST';
@@ -10,6 +11,7 @@ export const FETCH_MY_BOOKS_SUCCESS = 'FETCH_MY_BOOKS_SUCCESS';
 export const FETCH_MY_BOOKS_ERROR = 'FETCH_MY_BOOKS_ERROR';
 export const UPDATE_BOOK_STATUS = 'UPDATE_BOOK_STATUS';
 export const UPDATE_BOOK_RATING = 'UPDATE_BOOK_RATING';
+
 
 export const fetchBooks = () => async (dispatch) => {
     dispatch({ type: FETCH_BOOKS_REQUEST });
@@ -39,8 +41,7 @@ export const fetchBooks = () => async (dispatch) => {
 
 export const addBookToMyBooks = (book, userId) => async(dispatch) => {
     if(!userId) {
-       console.log("add to my books")
-        window.location('/login');
+       alert("please login to add to books")
     }
 
     try {
