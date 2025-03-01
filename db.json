@@ -1,0 +1,68 @@
+{
+	"books": {
+		"-OK60V0HT8YMnyeQ2RSV": {
+			"author": "Andrew Hunt & David Thomas",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/FF5733/FFFFFF?text=The+Pragmatic+Programmer",
+			"status": "want to read",
+			"title": "The Pragmatic Programmer"
+		},
+		"-OK6CNe_wybyaqRGSSCu": {
+			"author": "Robert C. Martin",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/3498DB/FFFFFF?text=Clean+Code",
+			"status": "currently reading",
+			"title": "Clean Code"
+		},
+		"-OK6CUEIvB2JYxvlZOoV": {
+			"author": "Kyle Simpson",
+			"availability": false,
+			"coverImage": "https://placehold.co/300x300/2ECC71/FFFFFF?text=You+Don't+Know+JS",
+			"status": "want to read",
+			"title": "You Don't Know JS"
+		},
+		"-OK6CYpfCNU7NtpPieOB": {
+			"author": "Marijn Haverbeke",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/F1C40F/000000?text=Eloquent+JavaScript",
+			"status": "read",
+			"title": "Eloquent JavaScript"
+		},
+		"-OK7BPrzsOrX5Aoej1kA": {
+			"author": "John Resig & Bear Bibeault",
+			"availability": false,
+			"coverImage": "https://placehold.co/300x300/C0392B/FFFFFF?text=Secrets+of+the+JavaScript+Ninja",
+			"status": "read",
+			"title": "Secrets of the JavaScript Ninja"
+		},
+		"-OK7BTzxqbfTxLWcaA6K": {
+			"author": "Mark Ethan Trostler",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/D35400/FFFFFF?text=Testable+JavaScript",
+			"status": "want to read",
+			"title": "Testable JavaScript"
+		},
+		"-OK7BWgtz8mmHnJqPbt7": {
+			"author": "Kyle Simpson",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/1ABC9C/FFFFFF?text=You+Don%27t+Know+JS%3A+ES6+%26+Beyond",
+			"status": "read",
+			"title": "You Don't Know JS: ES6 & Beyond"
+		},
+		"-OK7B_FT6xi2QwZBHlex": {
+			"author": "Addy Osmani",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/F39C12/FFFFFF?text=Learning+JavaScript+Design+Patterns",
+			"status": "currently reading",
+			"title": "Learning JavaScript Design Patterns"
+		},
+		"-OK7BbeBfVvtc6kLxXgq": {
+			"author": "David Flanagan",
+			"availability": true,
+			"coverImage": "https://placehold.co/300x300/9B59B6/FFFFFF?text=JavaScript%3A+The+Definitive+Guide",
+			"status": "read",
+			"title": "JavaScript: The Definitive Guide"
+		}
+	}
+}
+
