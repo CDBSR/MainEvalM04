@@ -2,11 +2,13 @@ import { useState } from "react"
 import { useDispatch } from "react-redux";
 import { loginUser, registeruser } from "../redux/actions/authActions";
 import { Box, Button, Heading, Input } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 export const Login = () => {
     const [email, setEmail] = useState(null);
     const [password, setPassword] = useState(null);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -17,6 +19,7 @@ export const Login = () => {
         try {
             dispatch(loginUser(email, password));
             alert("Logged in Successfully");
+            navigate('/home');
         } catch(error) {
             console.log('Error in Logging', error);
         }
